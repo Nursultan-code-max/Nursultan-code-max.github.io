@@ -1,0 +1,122 @@
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 500px;
+    height: 500px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+}
+
+.div {
+    font-size: 100px;
+    max-width: 163px;
+    height: 163px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    border-width: 2px;
+    border-style: solid;
+    border-color: yellow;
+
+}
+
+.column {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-start;
+
+}
+
+.player {
+    font-size: 50px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name1 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+}
+
+.name2 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: green;
+}
+
+.points1 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: red;
+    max-width: 100px;
+}
+
+.points2 {
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: green;
+    max-width: 100px;
+}
+
+.wrapper2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.turn {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.turn2 {
+    font-size: 50px;
+    border-style: solid;
+    border-color: blue;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-width: 10px;
+
+    margin-top: 35px;
+}
+
+
+.turnpl2 {
+    font-size: 50px;
+    border-style: solid;
+    border-color: green;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-width: 10px;
+
+    margin-top: 35px;
+}
+
+.turnpl1 {
+    font-size: 50px;
+    border-style: solid;
+    border-color: red;
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    border-width: 10px;
+
+    margin-top: 35px;
+}
